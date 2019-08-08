@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Core", "MyShop.Core\MyShop.Core.csproj", "{89D4C9A9-F544-4B34-8765-328CBE622A5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShop.Services", "MyShop.Services\MyShop.Services.csproj", "{C958ABC3-CA95-4857-846A-6D756EFE8892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Services", "MyShop.Services\MyShop.Services.csproj", "{C958ABC3-CA95-4857-846A-6D756EFE8892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShop.DataAccess.SQL", "MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj", "{E6DAC5C3-1529-4813-9815-B6FF46213588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.SQL", "MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj", "{E6DAC5C3-1529-4813-9815-B6FF46213588}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemory\MyShop.DataAccess.InMemory.csproj", "{4B36896B-A296-4BD2-92A8-ED111F836326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemory\MyShop.DataAccess.InMemory.csproj", "{4B36896B-A296-4BD2-92A8-ED111F836326}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI", "MyShop.WebUI\MyShop.WebUI.csproj", "{17923C48-AC75-47F2-A8A6-705A6C949339}"
 EndProject
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89D4C9A9-F544-4B34-8765-328CBE622A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89D4C9A9-F544-4B34-8765-328CBE622A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89D4C9A9-F544-4B34-8765-328CBE622A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89D4C9A9-F544-4B34-8765-328CBE622A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C958ABC3-CA95-4857-846A-6D756EFE8892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C958ABC3-CA95-4857-846A-6D756EFE8892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C958ABC3-CA95-4857-846A-6D756EFE8892}.Release|Any CPU.ActiveCfg = Release|Any CPU
